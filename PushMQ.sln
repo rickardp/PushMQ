@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushMQ", "PushMQ\PushMQ.csproj", "{88DBE556-7721-4191-891A-060E52B66EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{384E2E31-368B-4BCA-BDB0-9266085E00D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushMQ.Tests", "PushMQ.Tests\PushMQ.Tests.csproj", "{288BEA1A-9DAC-4B4C-B8A2-B0E8E65A76F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288BEA1A-9DAC-4B4C-B8A2-B0E8E65A76F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{288BEA1A-9DAC-4B4C-B8A2-B0E8E65A76F0}.Debug|x86.Build.0 = Debug|Any CPU
+		{288BEA1A-9DAC-4B4C-B8A2-B0E8E65A76F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{288BEA1A-9DAC-4B4C-B8A2-B0E8E65A76F0}.Release|x86.Build.0 = Release|Any CPU
+		{384E2E31-368B-4BCA-BDB0-9266085E00D6}.Debug|x86.ActiveCfg = Debug|x86
+		{384E2E31-368B-4BCA-BDB0-9266085E00D6}.Debug|x86.Build.0 = Debug|x86
+		{384E2E31-368B-4BCA-BDB0-9266085E00D6}.Release|x86.ActiveCfg = Release|x86
+		{384E2E31-368B-4BCA-BDB0-9266085E00D6}.Release|x86.Build.0 = Release|x86
+		{88DBE556-7721-4191-891A-060E52B66EAA}.Debug|x86.ActiveCfg = Debug|x86
+		{88DBE556-7721-4191-891A-060E52B66EAA}.Debug|x86.Build.0 = Debug|x86
+		{88DBE556-7721-4191-891A-060E52B66EAA}.Release|x86.ActiveCfg = Release|x86
+		{88DBE556-7721-4191-891A-060E52B66EAA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PushMQ.Tests\PushMQ.Tests.csproj
+	EndGlobalSection
+EndGlobal
