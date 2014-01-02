@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushMQ", "PushMQ\PushMQ.csproj", "{88DBE556-7721-4191-891A-060E52B66EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{384E2E31-368B-4BCA-BDB0-9266085E00D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushMQ.Tests", "PushMQ.Tests\PushMQ.Tests.csproj", "{288BEA1A-9DAC-4B4C-B8A2-B0E8E65A76F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "Samples\CSharp\TestClient.csproj", "{384E2E31-368B-4BCA-BDB0-9266085E00D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
